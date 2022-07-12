@@ -67,8 +67,8 @@ public class SearchService {
             }
         }
         // Return results
-        return itemList;
+        // return itemList;
         // Break the tests to check JenkinsFile + workflow.yml
-        // return Collections.emptyList();
+        return Collections.emptyList();
     }
 }
