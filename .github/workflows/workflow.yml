@@ -4,8 +4,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: ${{ github.repository }}/gradlew assemble
-      - run: ${{ github.repository }}/gradlew test
+      - name: Test Check
+        run: ${{ github.repository }}/Jenkinsfile
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Check out repository code
         uses: actions/checkout@v3
